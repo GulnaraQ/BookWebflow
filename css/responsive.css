@@ -64,6 +64,20 @@
   .btn {
     font-size: 16px;
   }
+  .total-box {
+    > h4 {
+      font-size: 35px;
+    }
+    > p {
+      font-size: 16px;
+    }
+  }
+  .mail-info h4 {
+    font-size: 19px;
+  }
+  .mail-info a {
+    font-size: 16px;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -88,6 +102,9 @@
     gap: 50px;
   }
   .section1-boxes {
+    grid-template-columns: 1fr;
+  }
+  .section2-boxes {
     grid-template-columns: 1fr;
   }
 }

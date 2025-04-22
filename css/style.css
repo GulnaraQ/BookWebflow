@@ -276,3 +276,73 @@ nav {
   font-family: Cardo Regular;
   font-weight: 700;
 }
+/* section1 end */
+
+.section2 {
+  background-color: rgba(244, 248, 255, 1);
+  padding: 70px 0;
+}
+.section2-boxes {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 47%);
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutAuthorImg img {
+  width: 100%;
+}
+.aboutAuthor .section-title {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.total-boxes {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  > .total-box {
+    border-right: 2px solid rgba(255, 202, 66, 1);
+    padding: 0 7px;
+  }
+}
+.total-box:nth-child(3) {
+  border: none;
+}
+.total-box h4 {
+  font-size: 55px;
+  color: rgba(27, 55, 100, 1);
+  font-family: Cardo Regular;
+}
+.total-box p {
+  font-size: 17px;
+  letter-spacing: -1%;
+  font-family: Inter Regular;
+  color: rgba(150, 154, 160, 1);
+}
+.mail-info {
+  margin-top: 20px;
+  background-color: rgba(27, 55, 100, 1);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.mail-info img {
+  width: 100%;
+}
+.mail-info h4 {
+  color: rgba(255, 202, 66, 1);
+  font-family: Cardo Regular;
+  font-size: 22px;
+  line-height: 120%;
+}
+.mail-info a {
+  font-size: 19px;
+  letter-spacing: -1%;
+  line-height: 180%;
+  color: rgba(180, 199, 231, 1);
+  font-family: Inter Regular;
+  display: inline-block;
+}
