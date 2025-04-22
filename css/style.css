@@ -20,6 +20,7 @@
 }
 header {
   background-color: #1b3764;
+  padding-bottom: 70px;
 }
 
 header a {
@@ -161,7 +162,117 @@ nav {
   line-height: 170%;
   letter-spacing: -1%;
 }
-
 .image img {
   width: 100%;
+}
+
+.bars {
+  color: white;
+  font-size: 25px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.showMenu {
+  background-color: aliceblue;
+}
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  height: calc(100% - 70px);
+  background-color: #a9a9a9;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.7s;
+  > .showLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    > img {
+      width: 50px;
+    }
+    > a {
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      color: #1b3764;
+    }
+  }
+}
+.showMobileNav {
+  opacity: 1;
+  visibility: visible;
+}
+.mobileNav .orderBtn {
+  width: 150px;
+  margin: auto;
+  > a {
+    color: #1b3764;
+  }
+}
+/* header end */
+
+.section1 {
+  padding: 70px 0;
+}
+.section-title {
+  font-size: 45px;
+  font-family: Cardo Regular;
+  line-height: 120%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: rgba(27, 55, 100, 1);
+}
+.section1-boxes {
+  margin-top: 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+.section1-boxes .box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.section1-boxes .box h4 {
+  color: rgba(27, 55, 100, 1);
+}
+.section1 .info-boxes {
+  margin: 10px 0;
+}
+.box-img img {
+  width: 100%;
+}
+.section-little-title {
+  font-family: Cardo Regular;
+  line-height: 120%;
+  letter-spacing: -2%;
+  font-size: 32px;
+  color: rgba(27, 55, 100, 1);
+}
+.section-description {
+  color: rgba(150, 154, 160, 1);
+  font-family: Inter Regular;
+  font-size: 19px;
+  line-height: 150%;
+  letter-spacing: -1%;
+}
+.btn {
+  display: inline-block;
+  color: #1b3764;
+  padding: 10px;
+  width: 170px;
+  text-align: center;
+  border: 1px solid rgba(255, 202, 66, 1);
+  font-size: 19px;
+  font-family: Cardo Regular;
+  font-weight: 700;
 }

@@ -51,13 +51,17 @@
   .info-title {
     font-size: 40px;
   }
-  .info-description {
-    font-size: 16px;
-  }
+
   .info-box h4 {
     font-size: 20px;
   }
-  .info-box p {
+  .section-little-title {
+    font-size: 25px;
+  }
+  .info-box p,
+  .info-description,
+  .section-description,
+  .btn {
     font-size: 16px;
   }
 }
@@ -71,18 +75,20 @@
   .nav-left {
     width: 50%;
   }
-  .nav-right {
-    grid-template-columns: 1fr;
-    width: 25%;
-  }
-
   .links,
-  .social-media {
+  .social-media,
+  .order-btn {
     display: none;
+  }
+  .bars {
+    display: flex;
   }
   .book-info {
     grid-template-columns: 1fr;
     gap: 50px;
+  }
+  .section1-boxes {
+    grid-template-columns: 1fr;
   }
 }
 

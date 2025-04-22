@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
@@ -35,8 +42,23 @@
               <a href="#">Order Today</a>
             </div>
           </div>
+          <div class="bars"><i class="fa-solid fa-bars" id="bars"></i></div>
         </nav>
         <!-- nav end -->
+
+        <div class="mobileNav" id="mobileNav">
+          <div class="showLinks">
+            <a href="./index.html">Home</a>
+            <a href="#">Pages</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#"><img src="./images/basket.svg" alt="basket" /></a>
+          </div>
+          <div class="orderBtn">
+            <a href="#">Order Today</a>
+          </div>
+        </div>
 
         <div class="book-info">
           <div class="info">
@@ -76,7 +98,78 @@
             <img src="./images/book.svg" alt="book" />
           </div>
         </div>
+        <!-- book-info end -->
       </div>
     </header>
+    <!-- header end -->
+
+    <section class="section1">
+      <div class="container">
+        <h2 class="section-title">Author’s Book Includes</h2>
+
+        <div class="section1-boxes">
+          <div class="box">
+            <div class="box-img">
+              <img src="./images/book1.svg" alt="book" />
+            </div>
+            <div>
+              <h3 class="section-little-title">Atomic One’s</h3>
+              <p class="section-description">
+                Many variations of passages of Lorem Ipsum willing araise
+                alteration in some form.
+              </p>
+              <div class="info-boxes">
+                <div class="info-box">
+                  <div><img src="./images/point.svg" alt="point" /></div>
+                  <div>
+                    <h4>Pages</h4>
+                    <p>586pages</p>
+                  </div>
+                </div>
+                <div class="info-box">
+                  <div><img src="./images/point.svg" alt="point" /></div>
+                  <div>
+                    <h4>Length:</h4>
+                    <p>10 Hours</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn">Order Today</a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-img">
+              <img src="./images/book2.svg" alt="book" />
+            </div>
+            <div>
+              <h3 class="section-little-title">The Dark Light</h3>
+              <p class="section-description">
+                Many variations of passages of Lorem Ipsum willing araise
+                alteration in some form.
+              </p>
+              <div class="info-boxes">
+                <div class="info-box">
+                  <div><img src="./images/point.svg" alt="point" /></div>
+                  <div>
+                    <h4>Pages</h4>
+                    <p>586pages</p>
+                  </div>
+                </div>
+                <div class="info-box">
+                  <div><img src="./images/point.svg" alt="point" /></div>
+                  <div>
+                    <h4>Length:</h4>
+                    <p>10 Hours</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn">Order Today</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
