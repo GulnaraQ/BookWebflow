@@ -107,6 +107,10 @@
   .section2-boxes {
     grid-template-columns: 1fr;
   }
+  .section3-boxes {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -115,5 +119,8 @@
   .container {
     max-width: 100%;
     padding: 0 20px;
+  }
+  .section3-boxes {
+    grid-template-columns: 1fr;
   }
 }
