@@ -12,6 +12,9 @@
   .info-title {
     font-size: 50px;
   }
+  .readers-box {
+    width: 80%;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -84,6 +87,10 @@
   .section6-boxes .info-box-total {
     flex-wrap: wrap;
   }
+  .section1-boxes {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -122,6 +129,10 @@
   }
   .section6-boxes {
     grid-template-columns: 1fr;
+  }
+  .section7-boxes {
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 }
 
