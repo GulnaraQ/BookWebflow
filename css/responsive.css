@@ -78,6 +78,12 @@
   .mail-info a {
     font-size: 16px;
   }
+  .section5-info .box p {
+    font-size: 20px;
+  }
+  .section6-boxes .info-box-total {
+    flex-wrap: wrap;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -111,6 +117,12 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
   }
+  .section5-boxes {
+    grid-template-columns: 1fr;
+  }
+  .section6-boxes {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -121,6 +133,9 @@
     padding: 0 20px;
   }
   .section3-boxes {
+    grid-template-columns: 1fr;
+  }
+  .section5-info {
     grid-template-columns: 1fr;
   }
 }

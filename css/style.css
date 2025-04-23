@@ -28,10 +28,14 @@ header a {
   font-family: Inter Regular;
 }
 nav {
+  background-color: #1b3764;
+  position: sticky;
+  top: 0;
   height: 70px;
   display: flex;
   justify-content: space-between;
 }
+
 .nav-left {
   width: 35%;
   display: flex;
@@ -179,7 +183,7 @@ nav {
   flex-direction: column;
   gap: 50px;
   padding: 50px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   right: 0;
   height: calc(100% - 70px);
@@ -402,3 +406,92 @@ nav {
   width: 100%;
 }
 /* section4 end */
+
+.section5 {
+  padding: 70px 0;
+}
+.section5-boxes {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.section5-info {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  justify-content: space-between;
+  gap: 20px;
+}
+.section5-img img {
+  width: 100%;
+}
+span {
+  background-color: rgba(255, 202, 66, 1);
+  color: #1b3764;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-family: Cardo Regular;
+}
+.section5-info .box p {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Cardo Regular;
+  line-height: 140%;
+  letter-spacing: -1%;
+  color: rgba(27, 55, 100, 1);
+}
+.section5-info .box {
+  padding: 30px 15px;
+  background-color: rgba(244, 248, 255, 1);
+}
+/* section5 end */
+
+.section6 {
+  padding: 100px 0;
+  background-color: rgba(244, 248, 255, 1);
+}
+.section6-boxes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.section6-boxes .box {
+  background-color: white;
+  padding: 20px;
+  > h3 {
+    font-size: 24px;
+    color: #1b3764;
+    letter-spacing: -2%;
+    line-height: 120%;
+    font-family: Cardo Regular;
+  }
+  > p {
+    font-size: 19px;
+    color: rgba(150, 154, 160, 1);
+    font-family: Inter Regular;
+    line-height: 180%;
+    letter-spacing: -1%;
+    margin-top: 20px;
+  }
+}
+.section6-boxes .info-boxes {
+  margin-top: 20px;
+}
+.section6-boxes .info-box-total {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  > h4 {
+    color: #1b3764;
+  }
+}
+/* section6 end */
